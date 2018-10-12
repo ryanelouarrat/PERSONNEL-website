@@ -1,0 +1,12 @@
+on utilise: display: flex bch alignew dkchi orizontalement
+flex-direction: column
+		column-reverse(ul m9luba)
+		row (par defaut, y3ni gheir display:flex)
+		row-reverse ( row m9luba)
+and we use flex wrap ela kan le text mdy9 fch kansghru la page
+justify-content: flex-start( par defaut dkchi mstf f lwl)
+		 flex-end (mstf flkhr)
+		 space-beetwen(lwl, lwst, lkhr)
+		 space-arround(chuiy b3d lwl,wst lkhr)
+	 	 center(mlas9en lwst)
+align-items: stretch

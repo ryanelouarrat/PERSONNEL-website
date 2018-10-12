@@ -1,0 +1,49 @@
+@font-face {
+	font-family:'bold';
+	src: url('bold.ttf');
+}
+@font-face {
+	font-family:'flower';
+	src: url('flower.ttf');
+}
+@font-face {
+	font-family:'bolditalic';
+	src: url('bolditalic.ttf');
+}
+@font-face {
+	font-family:'Oswald';
+	src: url('Oswald.ttf');
+}
+.name
+{
+	text-align: center;
+	font-family: 'flower' ,  arial , serif ;
+	color: #f4e978;
+}
+.work
+{
+	text-align: center;
+}
+body
+{
+	background: url("tn_ryan.png") no-repeat top right , url("neige.jpg");
+	border-image: url('yn_ryan.png') 30;
+}
+h2
+{
+	font-family: 'oswald' , arial , serif;
+	color: #801609;
+	border: 3px #982c05 inset;
+	box-shadow: 4px 3px 3px black;
+}
+a:hover
+{
+	text-decoration: underline;
+	font-family: 'bolditalic.ttf' , arial, serif;
+	font-weight: bold;
+}
+a
+{
+	text-decoration: none;
+	color: #982c05;
+}

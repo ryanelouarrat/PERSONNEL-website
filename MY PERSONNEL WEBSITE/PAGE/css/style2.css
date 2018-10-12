@@ -1,0 +1,60 @@
+@font-face {
+	font-family:'bold';
+	src: url('bold.ttf');
+}
+@font-face {
+	font-family:'flower';
+	src: url('flower.ttf');
+}
+@font-face {
+	font-family:'bolditalic';
+	src: url('bolditalic.ttf');
+}
+@font-face {
+	font-family:'Oswald';
+	src: url('Oswald.ttf');
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+#container{
+	display: flex;
+	flex-flow: column nowrap;
+}
+#text{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+}
+#name{
+	display: flex;
+	flex-flow: row nowrap;
+}
+.hame
+{
+	text-align: center;
+	font-family: 'bolditalic'  , roboto , serif;
+	font-size: 2.1em;
+}
+.work{
+	text-align: center;
+}
+div
+{
+	height: auto;
+	width: auto;
+}
+h2
+{
+	font-family: 'bolditalic' , arial , serif;
+	font-size: 1.9em;
+	color: #ff9933;
+}
+p , li { font-family: 'bold' , roboto , serif; }
+strong{ font-weight: 500; }
+a
+{
+	text-decoration: none;
+	color: grey;
+}

@@ -1,0 +1,169 @@
+@font-face {
+	font-family:'glitch';
+	src: url('glitch.ttf');
+}
+@font-face {
+	font-family:'bold';
+	src: url('bold.ttf');
+}
+@font-face {
+	font-family:'flower';
+	src: url('flower.ttf');
+}
+@font-face {
+	font-family:'bolditalic';
+	src: url('bolditalic.ttf');
+}
+@font-face {
+	font-family:'Oswald';
+	src: url('Oswald.ttf');
+}
+@font-face{
+	font-family: 'rubik-black';
+	src: url('rubik-black.ttf');
+}
+@font-face{
+	font-family: 'ofissina';
+	src: ('ofissina.ttf');
+}
+body
+{
+	color: white;
+	background-color: black ;
+
+}
+.title
+{
+	text-align: center;
+	color: #bd1100;
+	font-family: 'glitch' , arial , serif;
+	font-size: 2.6em;
+}
+.titl
+{
+	text-align: center;
+	color: #ffefd5;
+	font-family: 'oswald' , arial , serif; 
+	font-size: 1.8em;
+	text-decoration: underline;
+}
+.titl:hover
+{
+border-left: 6px #ffefd5 inset;
+border-right: 6px #ffefd5 inset;
+font-style: italic;
+}
+figure
+{
+	text-align: center;
+}
+figcaption
+{
+	font-family: 'bolditalic' , arial , serif;
+	text-decoration: underline;
+}
+h2
+{
+	font-family: 'rubik-black' , arial , serif;
+	color: #ffdab9;
+	text-shadow: 2px 3px 6px #ffefd5;
+	
+}
+h2:hover
+{
+	border-left:4px solid #e0ffff;
+}
+.inblack
+{
+	color:black;
+	font-size:0.01em;
+}
+.warning
+{
+	font-family:'bolditalic' , arial , serif;
+	color: orange;
+	background-color: white;
+}
+.warning:hover
+{
+	font-size: 1.2em;
+	text-decoration: bold;
+}
+p
+{
+	font-family: 'ofissina' , arial , serif ;
+	color: #ffefd5 ;
+	font-size: 1.2em;
+	text-align: justify;
+}
+img
+{
+	border:4px #d3d3d3 double ;
+	box-shadow: 3px 3px 5px  #ffefd5;
+}
+.deep
+{
+	font-family: 'bold' , arial , serif;
+	background-color: white;
+	border:6px solid #e0ffff;
+	border-radius: 8px;
+	width: 12%;
+	min-width: 150px;
+	color:black;
+}
+li:hover
+{
+	border-left:4px solid #ff6347;
+}
+.goal
+{
+	font-family: 'flower' , arial , serif;
+	background-color: #fffafa;
+	border: 6px solid #ff6347;
+	color:black;
+	width: 25%;
+	min-width:200px;
+	font-size:0.9em;
+
+}
+a
+{
+	color:black;
+	text-decoration:none;
+	font-weight: bold;
+}
+a:hover
+{
+	font-weight: bold;
+	color:white;
+	tex
+}
+
+.number
+{
+	font-family: 'bold', arial , serif;
+}
+.title:hover
+{
+	text-decoration: underline;
+}
+#end
+{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: auto;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #d8bfd8;
+	height: 100px;
+
+}
+div
+{
+	text-decoration: underline;
+	padding-top: 20px;
+	flex:1;
+	margin-left:50px ;
+	
+}

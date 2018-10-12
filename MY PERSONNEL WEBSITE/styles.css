@@ -1,0 +1,390 @@
+@font-face
+{
+  font-family: 'devon';
+  src: url('font/devon.otf');
+}
+@font-face
+{
+  font-family: 'devon2';
+  src: url('font/devon2.otf');
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+.container nav.desk,
+.container nav.mob{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: black;
+  height: 60px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  font-family: 'devon' , arial , sans-serif;
+  letter-spacing: 1px;
+}
+
+nav.desk ul {
+  list-style: none;
+  width: 70%;
+  height: 60px;
+  margin: 0 auto;
+}
+
+nav.desk ul li {
+  width: 20%;
+  float: left;
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+nav.desk ul li:hover,
+nav.mob ul li:hover{
+  background: #a3ada5;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.mob,
+.hamburger-btn {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  nav.desk {
+    display: none;
+  }
+
+  nav.mob,
+  .hamburger-btn {
+    display: block;
+  }
+  
+  .hamburger-btn {
+    position: relative;
+  }
+
+  .hamburger-btn .fa-bars,
+  .hamburger-btn .fa-times {
+    position: fixed;
+    right: 25px;
+    top: 15px;
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .mob ul{
+    margin-top: 60px;
+    background-color:black;
+    display: none;
+  }
+
+  .mob li {
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .mob ul.active {
+    display: block;
+  }
+  /*  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
+  #link{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+.center
+{
+  height:60px;
+  width: 60px;
+}
+/*--------------------------------FUUUUUUUUUUUUUUUUUUUUUCK SALEEET------------------------------------------------------------------*/
+/*--------------------------------NEEEEEW-OOOOOOOOONE---------------------------------------------------------------------------*/
+#home
+{
+  display: flex;
+  flex-flow: column wrap;
+  background: url(image/na.jpg) no-repeat center center ;
+  background-size:cover;
+  height: 770px;
+  align-items: center ;
+}
+h1
+{
+  font-family: 'devon' , arial , sans-serif;
+  color: white;
+  letter-spacing: 20px;
+  font-size:2em;
+}
+body , html
+{
+  height:100%; 
+  margin: 0;
+}
+html{
+  box-sizing: border-box;
+}
+h1
+{
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+
+}
+.hi
+{
+  color:white;
+  text-align: center;
+  font-family: "devon2" , arial , sans-serif;
+  letter-spacing: 7px;
+  margin-bottom: auto;
+  font-weight: 500;
+}
+.see
+{
+  color:white;
+  font-family: 'devon2' , arial , sans-serif;
+  letter-spacing: 5px;
+  font-weight: 500;
+
+}
+#PROJECT
+{
+  display: flex;
+  flex-wrap: wrap;
+    margin-left: -15px;
+}
+.text
+{
+  width: 60%;
+  margin:auto;
+  font-family: 'Roboto' , arial , sans-serif;
+  font-size: large;
+}
+#principale
+{
+  padding-top: 40px;
+  padding-bottom:  40px; 
+  margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+.deux
+{
+  padding-top: 40px;
+  padding-bottom:  40px;
+  max-width: 720px;
+  margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    width: 100%;
+}
+/*for round border*/
+#rond {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px black solid;
+}
+img:not(.center) {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+/*for round border "END"*/
+a
+{
+  text-decoration: none;
+  font-family: 'devon' , arial , sans-serif;
+  font-size:1em ;
+  color:white;
+  text-transform: uppercase;
+}
+.center:hover
+{
+    background-color:white;
+}
+#project1
+{
+  width: 100%;
+  height:690px;
+  background-color: #282828;
+}
+.lut
+{
+  color: white;
+  font-family:'devon2' , arial , serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight:500;
+}
+.description
+{
+  font-family: 'devon2' , arial , serif;
+  font-weight: 500;
+  text-align: center;
+  color: #d3d3d3;
+}
+.bouton
+{
+  height: 60px;
+  width: 200px;
+  background-color: white;
+  display:flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 70px;
+}
+.bouton:hover
+{background-color: #ff8c00;}
+.DOWNLOAD
+{
+  text-align:center;
+  color:black;
+  font-weight: bolder;
+  font-family: 'devon2' , arial ,serif;
+  font-size: 1.8em;
+  padding: 10px;
+}
+.video
+{
+  font-family: 'devon2' , arial , serif;
+  font-weight: 500;
+  padding-left: 120px;
+  padding-top: 20px;
+  color: white;
+  border-left: 2px inset white;
+}
+.cinematique
+{
+  display: flex;
+  justify-content: space-around;
+}
+.title
+{
+  color: white;
+  font-family: 'devon2' , arial , serif;
+ margin-left: 100px;
+ font-weight: 500;
+}
+/*------------------------------------PRESEEEEET---------------------------------------*/
+#project2
+{
+  width: 100%;
+  min-width: 100%;
+  height: 500px;
+}
+.preset
+{
+  color: black;
+  font-family: 'devon2' ,arial serif;
+  word-spacing: 20px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+.psd
+{
+  font-family: 'devon2' , arial , serif;
+  font-weight: 500;
+  text-align: center;
+  color:black;
+}
+.bouton1
+{
+  height: 60px;
+  width: 200px;
+  background-color: black;
+  display:flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 70px;
+}
+.bouton1:hover
+{background-color: #191919;}
+#imagec
+{
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.free
+{
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: "devon" , arial , serif;
+}
+/*-----------------------------------------------------------another one-----------------------------------------------------------------------*/
+#idk
+{
+  width: 100%;
+  height:300px;
+  background-color: #282828;
+}
+#social
+{
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+ justify-content: center;
+  padding-top: 80px
+}
+.lkhr
+{
+  text-align: center;
+  font-family: 'devon' , arial , serif;
+  color: white;
+  padding-top: 60px;
+  letter-spacing: 1px;
+}
+/*------------------------------------THE FUCKING LAST ONE------------------------------*/
+#footer
+{
+  height: 70px;
+  width: 100%;
+  background-color: #191919;
+
+}
+.linkfooter{
+  /*margin-left: auto; 
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;*/
+  margin: auto;
+  padding: auto;
+
+}
+.t
+{
+  color: white;
+  margin-left: auto;
+}
+#link
+{
+  display: flex;
+  flex-flow: row nowrap;
+  padding-top:  25PX;
+  padding-bottom: 25px;
+
+}
+.linkfooter:hover{
+  text-decoration: underline;
+}
